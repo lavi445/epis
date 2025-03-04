@@ -1,19 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Fantasy Slant|Monoton|Muli:400,400i,500,500i,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Fantasy Slant|Monoton|Muli:400,400i,500,500i,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fantasy Slant|Monoton|'Fantasy Qelirole':400,400i,500,500i,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fantasy Slant|Monoton|'Fantasy Qelirole':400,400i,500,500i,600&display=swap");
 @font-face {
   font-family: 'Fantasy Slant';
-  src: url('/static/font/MONSTER\ OF\ FANTASY.otf') format('truetype');
+  src: url('static/font/fantasy slant personal use.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
-.heading{
-  font-family: 'Fantasy Slant';
-  color:#fff;
-  font-size: 45px;
-  text-align: right;
-  padding-right: 120px;
+@font-face {
+  font-family: 'Fantasy Qelirole';
+  src: url('static/font/Fantasy Qelirole Serif.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+/*index.html logo design*/
+@media (max-width: 600px) {
+  .indexImg {
+    width: 350px;
+    align-self: center; /* Forces width override */
+  }
+}
+
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -135,17 +143,17 @@ h6 a {
 
 /* line 64, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 a {
-  font-family: "Muli", sans-serif;
+  font-family: "'Fantasy Qelirole'", sans-serif;
 }
 
 /* line 67, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 input::placeholder {
-  font-family: "Muli", sans-serif;
+  font-family: "'Fantasy Qelirole'", sans-serif;
 }
 
 /* line 70, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
 textarea::placeholder {
-  font-family: "Muli", sans-serif;
+  font-family: "'Fantasy Qelirole'", sans-serif;
 }
 
 /* line 73, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -167,7 +175,7 @@ p {
   margin-bottom: 0;
   font-weight: 400;
   margin-bottom: 0px;
-  font-family: "Muli", sans-serif;
+  font-family: 'Fantasy Qelirole', sans-serif;
 }
 
 /* line 90, ../../Arafath/CL/December/236. Event-02/HTML/scss/theme-default.scss */
@@ -826,7 +834,7 @@ h3 {
   margin-bottom: 0;
   font-weight: 400;
   margin-bottom: 0px;
-  font-family: "Muli", sans-serif;
+  font-family: "'Fantasy Qelirole'", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2433,7 +2441,7 @@ h3 {
 
 /* line 39, ../../Arafath/CL/December/236. Event-02/HTML/scss/_map.scss */
 .map_area .location_information .info_wrap .single_info span {
-  font-family: "Muli", sans-serif;
+  font-family: "'Fantasy Qelirole'", sans-serif;
   font-weight: 600;
   font-size: 20px;
   margin-right: 20px;
@@ -2695,7 +2703,7 @@ h3 {
   color: #AAB1B7;
   margin-bottom: 0;
   font-weight: 400;
-  font-family: "Muli", sans-serif;
+  font-family: "'Fantasy Qelirole'", sans-serif;
 }
 
 @media (max-width: 767px) {

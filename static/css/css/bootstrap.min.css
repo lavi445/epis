@@ -81,6 +81,7 @@ nav,
 section {
     display: block
 }
+/*footer css*/
 
 body {
     margin: 0;
@@ -115,7 +116,7 @@ h6 {
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 abbr[data-original-title],
@@ -424,7 +425,8 @@ h3 {
 
 .h4,
 h4 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
 .h5,
