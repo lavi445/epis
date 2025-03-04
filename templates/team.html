@@ -1,0 +1,586 @@
+{% extends "base.html" %}
+
+{% block title %}Our Team - Astralis Fest{% endblock %}
+
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Section</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/team.css') }}">
+</head>
+
+<body>
+ <h1>Meet Our Team</h1> 
+    <section class="team">
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Megha.jpg') }}" alt="Megha Sharma">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/megha-sharma-766224239" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/meghasharma.03" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Megha Sharma</h2> 
+                <p>President</p>
+            </div>
+        </div>
+        
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Simarjeet.png') }}" alt="Simarjeet Kaur">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/simarjeetkaur" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://instagram.com/simarrjeetkaur" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Simarjeet Kaur</h2>
+                <p>Vice President</p>
+            </div>
+        </div>
+    </section>
+
+    <h2>Technical Team</h2>
+    <section class="team">
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Gargi Mittal.jpg') }}" alt="Gargi Mittal">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gargi-mittal-199434230" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/gargiwithdiary" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/GargiMittal" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Gargi Mittal</h2>
+                <p>Technical Head</p>
+            </div>
+        </div>
+        
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Khushi tomar.jpg') }}" alt="Khushi Tomer">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/khushi-tomer-416780258" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/khushi_tomer_" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Khushi Tomer</h2>
+                <p>Technical Head</p>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Jahanvi.jpg') }}" alt="Khushi Tomer">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/janhvibabani" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Janhvibabani" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/janhvvi_/profilecard/?igsh=Z3ViOWIzeGhpenR4" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Jahanvi Babani</h2>
+                <p>Technical Sub Head</p>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/himanshi.jpg') }}" alt="Khushi Tomer">
+                <div class="social-icons">
+                    <a href="https://linkedin.com/himanshi-rathore-941807270/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Unico_153?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/himanshiiii_1503/profilecard/?igsh=dWlhZzg4ZWk3bGox" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Himanshi Rathore</h2>
+                <p>Technical Sub Head</p>
+            </div>
+        </div>
+    </section>
+    
+    <h2>Creative Team</h2>
+    <section class="team">
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Geetanjali.jpg') }}" alt="Geetanjali Barman">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/geetanjalibarman" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Geetanjali_1995" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/_itsgb_" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Geetanjali Barman</h2>
+                <p>Creative Head</p>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Suhani.jpg') }}" alt="Sunaina Sharma">
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/oliviagreen" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sunaina_badyal" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Sunaina Sharma</h2>
+                <p>Creative Head</p>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Chanika.jpg') }}" alt="Chanika Rathore">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/chainika-rathore-8a942b24a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/Chainika_02" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Chanika Rathore</h2>
+                <p>Creative Sub Head</p>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Divya.jpg') }}" alt="Divya Bhati">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/divya-bhati-79829a271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mis._divya_bhati/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Divya Bhati</h2>
+                <p>Creative Sub Head</p>
+            </div>
+        </div>
+   
+    </section>
+    
+    <h2>Literary Team</h2>
+            <section class="team">
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Deepshika.jpg') }}" alt="Deep Shikha Verma">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/deep-s-04b876242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/Deepshikhaaa05" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Deep Shikha Verma</h2>
+                        <p>Literary Head</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/KhyatiChattree.jpg') }}" alt="Khyati Chattree">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/khyati-chattree" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Khyati13C" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Khyati Chattree</h2>
+                        <p>Literary Head</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Laxmi.jpg') }}" alt="Laxmi Sankhla">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/laxmi-sankhla-06196228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/laxmi._sankhla/profilecard/?igsh=MWtueHpneXJjbjgyaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Laxmi Sankhla</h2>
+                        <p>Literary Sub Head</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Gargi.jpg') }}" alt="Gargi Sharma">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/gargi-sharma-598a442b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/shadowcipher__" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Gargi Sharma</h2>
+                        <p>Literary Sub Head</p>
+                    </div>
+                </div>
+            </section>
+            
+            <h2>Innovation Team</h2>
+            <section class="team">
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Nandani.jpg') }}" alt="Nandani Kumari">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/nandani-kumari-a9b334237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/nandani._.gupta" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Nandani Kumari</h2>
+                        <p>Innovation Head</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Aastha.jpg') }}" alt="Astha Patni">
+                        <div class="social-icons">
+                            <a href="http://www.linkedin.com/in/aasthapatni" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/aasthapatni_" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Astha Patni</h2>
+                        <p>Innovation Head</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Preeti rawat.jpg') }}" alt="Preeti Rawat">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/preeti-rawat-b39227272" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/preeti_rawat730" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Preeti Rawat</h2>
+                        <p>Innovation Sub Head</p>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Astha .jpg') }}" alt="Astha Sharma">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/astha-sharma-10290a311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/_.pastaaaa" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Astha Sharma</h2>
+                        <p>Innovation Sub Head</p>
+                    </div>
+                </div>
+                
+    </section>
+    <h2>Cultural Cheif Team</h2>
+    <section class="team">
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Srija.jpg') }}" alt="Gargi Mittal">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gargi-mittal-199434230" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/gargiwithdiary" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/GargiMittal" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Shreeja Maheshwari</h2>
+            </div>
+        </div>
+        
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Deepali.jpg') }}" alt="Khushi Tomer">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/khushi-tomer-416780258" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/khushi_tomer_" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Deepali Sharma</h2>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Poorvi Gupta.jpg') }}" alt="Khushi Tomer">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/janhvibabani" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Janhvibabani" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/janhvvi_/profilecard/?igsh=Z3ViOWIzeGhpenR4" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Poorvi Gupta</h2>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Sonashi.jpg') }}" alt="Khushi Tomer">
+                <div class="social-icons">
+                    <a href="https://linkedin.com/himanshi-rathore-941807270/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Unico_153?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/himanshiiii_1503/profilecard/?igsh=dWlhZzg4ZWk3bGox" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Sonakshi Reniya</h2>
+            </div>
+        </div>
+    </section>
+    
+    <h2>PR Chief Team</h2>
+    <section class="team">
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Geetanjali.jpg') }}" alt="Geetanjali Barman">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/geetanjalibarman" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Geetanjali_1995" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/_itsgb_" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Shruti Bharadwaj</h2>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Priyanshi .jpg') }}" alt="Sunaina Sharma">
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/oliviagreen" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sunaina_badyal" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Priyanshi Jain</h2>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Ananya.jpg') }}" alt="Chanika Rathore">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/chainika-rathore-8a942b24a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/Chainika_02" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Ananya Mewara</h2>
+            </div>
+        </div>
+        
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Disha .jpg') }}" alt="Divya Bhati">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/divya-bhati-79829a271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mis._divya_bhati/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Disha Chippa</h2>
+            </div>
+        </div>
+        <div class="member">
+            <div class="image-container">
+                <img src="{{ url_for('static', filename='images/TEAM/Chitra Rathore.jpg') }}" alt="Divya Bhati">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/divya-bhati-79829a271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/mis._divya_bhati/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="member-content">
+                <h2>Chitra Rathore</h2>
+            </div>
+        </div>
+   
+   
+    </section>
+    
+    <h2>Creative Chiefs Team</h2>
+            <section class="team">
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Megha gehlot.jpg') }}" alt="Deep Shikha Verma">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/deep-s-04b876242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/Deepshikhaaa05" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Megha Gehlot</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Divyanshi Sharma.jpg') }}" alt="Khyati Chattree">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/khyati-chattree" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Khyati13C" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Divyanshi Sharma</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Khushi khatri.jpg') }}" alt="Laxmi Sankhla">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/laxmi-sankhla-06196228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/laxmi._sankhla/profilecard/?igsh=MWtueHpneXJjbjgyaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Khushi Khatri</h2>
+                    </div>
+                </div>
+               
+            </section>
+            
+            <h2>Groundwork Chiefs Team</h2>
+            <section class="team">
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Tashnit Singh.jpg') }}" alt="Nandani Kumari">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/nandani-kumari-a9b334237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/nandani._.gupta" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Tashneet Kaur Matharu</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/shushrita.jpg') }}" alt="Astha Patni">
+                        <div class="social-icons">
+                            <a href="http://www.linkedin.com/in/aasthapatni" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/aasthapatni_" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Sushrita Bhattacharya</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Niharika.jpg') }}" alt="Preeti Rawat">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/preeti-rawat-b39227272" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/preeti_rawat730" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Niharika Rathore</h2>
+                    </div>
+                </div>
+             </section>
+
+             <h2>Media Chiefs Team</h2>
+            <section class="team">
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Nandani.jpg') }}" alt="Nandani Kumari">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/nandani-kumari-a9b334237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/nandani._.gupta" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Vidya Chauhan</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Sharvani.jpg') }}" alt="Astha Patni">
+                        <div class="social-icons">
+                            <a href="http://www.linkedin.com/in/aasthapatni" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/aasthapatni_" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Sharvani Gautam</h2>
+                    </div>
+                </div>
+              
+             </section>
+             <h2>Website Development Team</h2>
+            <section class="team">
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Gargi Mittal.jpg') }}" alt="Nandani Kumari">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/nandani-kumari-a9b334237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/nandani._.gupta" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Gargi Mittal</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Aastha.jpg') }}" alt="Astha Patni">
+                        <div class="social-icons">
+                            <a href="http://www.linkedin.com/in/aasthapatni" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/aasthapatni_" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Diksha Gaur</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Preeti rawat.jpg') }}" alt="Preeti Rawat">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/preeti-rawat-b39227272" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/preeti_rawat730" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Pragati Sharma</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Disha .jpg') }}" alt="Preeti Rawat">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/preeti-rawat-b39227272" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/preeti_rawat730" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Disha chippa</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/Arshpreet.jpg') }}" alt="Preeti Rawat">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/preeti-rawat-b39227272" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/preeti_rawat730" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Arshpreet Kaur</h2>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="image-container">
+                        <img src="{{ url_for('static', filename='images/TEAM/bhawanaa.jpg') }}" alt="Preeti Rawat">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/preeti-rawat-b39227272" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/preeti_rawat730" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-content">
+                        <h2>Bhavana Sharma</h2>
+                    </div>
+                </div>
+             </section>
+
+</body>
+{% endblock %}
