@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: 'Fantasy Qelirole';
-  src: url('static/font/Fantasy Qelirole Serif.otf') format('opentype');
+  src: url('static\font\Fantasy Qelirole Serif.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -2349,7 +2349,7 @@ h3 {
 /* line 30, ../../Arafath/CL/December/236. Event-02/HTML/scss/_performer.scss */
 .performar_area .single_performer .performer_heading h4 {
   font-size: 30px;
-  font-family: "Fantasy Slant", sans-serif;
+  font-family: 'Fantasy Qelirole';
   color: #fff;
   font-weight: 400;
   margin-bottom: 14px;

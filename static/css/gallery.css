@@ -1,5 +1,19 @@
 @import url("https://fonts.bunny.net/css?family=amita:700");
+@import url("https://fonts.googleapis.com/css?family=Fantasy Slant|Monoton|'Fantasy Qelirole':400,400i,500,500i,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fantasy Slant|Monoton|'Fantasy Qelirole':400,400i,500,500i,600&display=swap");
+@font-face {
+  font-family: 'Fantasy Slant';
+  src: url('static/font/fantasy slant personal use.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Fantasy Qelirole';
+  src: url('static\font\Fantasy Qelirole Serif.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
     background: url(https://res.cloudinary.com/ritalbradley/image/upload/v1657644013/pexels-elijah-o_donnell-3473569_o7ohfd.jpg)
         center center/cover no-repeat;
@@ -13,13 +27,13 @@ body {
 
 h1 {
     color: #fefae0;
-    font-family: Amita, sans-serif;
+    font-family: 'Fantasy Slant', sans-serif;
     margin: 20px auto;
     width: 90%;
     max-width: 450px;
     font-size: 2.5rem;
     text-align: center;
-    border-bottom: 10px double #bc6c25;
+    border-bottom: 5px double #fff;
     justify-content:flex-end;
 }
 
@@ -46,7 +60,7 @@ img {
     height: auto;
     margin: 5px;
     border: 10px solid #fefae0;
-    filter: sepia(100%);
+    filter: grayscale(100%);
     transition-duration: 0.5s;
 }
 
